@@ -1,77 +1,48 @@
-import { UPDATE_DATA } from './constants';
+import { UPDATE_DATA } from "./constants";
 const initialState = {
   data: [
     {
       id: 1,
-      name: 'Ramon',
-      dateCreated: '19.02.2021',
-      category: 'Random',
-      context: "lpregknmfkgjdfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      planDate: '21.03.2021',
-      archive: true
+      name: "Honda Jazz 2012 автомат",
+      dateCreated: "19.02.2021",
+      context:
+        "Honda Jazz III 2012 року випуску, мотор бензин 1.4 на автоматичній коробці (варіатор) з пелюстками переключення в ручному режимі під кермом, пробіг 95 000 кмАвтомобіль був придбаний в Україні на початку 2019 року від першого власника в Україні, машина у 2017 році була привезена із Німеччини",
     },
     {
       id: 2,
-      name: 'Likar',
-      dateCreated: '19.02.2021',
-      category: 'Random',
-      context: '..',
-      planDate: '21.03.2021',
-      archive: true
+      name: "Ford Mondeo 2009",
+      dateCreated: "19.02.2021",
+      context: "Гарна комплектація, хороший стан.Деталі по телефону",
     },
     {
       id: 3,
-      name: 'Take a new Task',
-      dateCreated: '19.02.2021',
-      category: 'Task',
-      context: '..',
-      planDate: '21.03.2021',
-      archive: false
+      name: "Skoda Octavia A5",
+      dateCreated: "19.02.2021",
+      context:
+        "Skoda Octavia A5, 2007 р, м. Львов. Перший власник із салону , машина не бита . Все працює . Пробіг : 244 тис.",
     },
     {
       id: 4,
-      name: 'Take a new Task',
-      dateCreated: '19.02.2021',
-      category: 'Idea',
-      context: '..',
-      planDate: '21.03.2021',
-      archive: false
+      name: "Skoda Superb 2010 року",
+      dateCreated: "19.02.2021",
+      context:
+        "Продається Skoda Superb 2010 року .Є не величкі недоліки по кузову .Всімпитання по телефону ",
     },
     {
       id: 5,
-      name: 'Take a new Task',
-      dateCreated: '19.02.2021',
-      category: 'Idea',
-      context: '..',
-      planDate: '21.03.2021',
-      archive: false
+      name: "Suzuki Grand Vitara 2008 р",
+      dateCreated: "19.02.2021",
+      context:
+        "Автомобіль, який зарекомендував себе з позитивної точки зору. Це транспорт, який не підведе вас у дорозі із ними себе будете почувати добре на бездоріжжі. Автомобіль має шкіряний салон досить збережений. Повний привід. Підігрів сидіння, безключовий доступ, люк, хороший мотор і збережена ходова. Кузов теж досить хорошому стані",
     },
-    {
-      id: 6,
-      name: 'Take a new Task',
-      dateCreated: '19.02.2021',
-      category: 'Idea',
-      context: '..',
-      planDate: '21.03.2021',
-      archive: false
-    },
-    {
-      id: 7,
-      name: 'Take a new Task',
-      dateCreated: '19.02.2021',
-      category: 'Idea',
-      context: '..',
-      planDate: '21.03.2021',
-      archive: false
-    },
-  ]
+  ],
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_DATA:
       return {
-        data: action.payload
+        data: action.payload,
       };
     default:
       return state;

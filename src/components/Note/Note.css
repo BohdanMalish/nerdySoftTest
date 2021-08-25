@@ -70,3 +70,35 @@ li {
     width: 47px;
     height: 47px;
 }
+.top-notes{
+    position: relative;
+    display:  flex;
+    justify-content: space-between;
+}
+.similar-note{
+    position: relative;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+.header-similar{
+    font-size: 22px;
+    font-weight: 600;
+}
+.context-similare{
+    word-wrap: break-word;
+    text-align:left;
+}
+.data-similar{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-weight: 500;
+
+}
