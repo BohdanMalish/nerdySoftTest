@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nerdySoftTest/static/css/main.d06da2aa.chunk.css",
+    "main.css": "/nerdySoftTest/static/css/main.2bacc56b.chunk.css",
     "main.js": "/nerdySoftTest/static/js/main.7458381e.chunk.js",
     "main.js.map": "/nerdySoftTest/static/js/main.7458381e.chunk.js.map",
     "runtime-main.js": "/nerdySoftTest/static/js/runtime-main.f8afb069.js",
@@ -10,13 +10,13 @@
     "static/js/3.d87958ee.chunk.js": "/nerdySoftTest/static/js/3.d87958ee.chunk.js",
     "static/js/3.d87958ee.chunk.js.map": "/nerdySoftTest/static/js/3.d87958ee.chunk.js.map",
     "index.html": "/nerdySoftTest/index.html",
-    "static/css/main.d06da2aa.chunk.css.map": "/nerdySoftTest/static/css/main.d06da2aa.chunk.css.map",
+    "static/css/main.2bacc56b.chunk.css.map": "/nerdySoftTest/static/css/main.2bacc56b.chunk.css.map",
     "static/js/2.82bf9154.chunk.js.LICENSE.txt": "/nerdySoftTest/static/js/2.82bf9154.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f8afb069.js",
     "static/js/2.82bf9154.chunk.js",
-    "static/css/main.d06da2aa.chunk.css",
+    "static/css/main.2bacc56b.chunk.css",
     "static/js/main.7458381e.chunk.js"
   ]
 }
