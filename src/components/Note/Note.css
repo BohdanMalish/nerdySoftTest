@@ -71,13 +71,14 @@ li {
     height: 47px;
 }
 .top-notes{
+    margin-top: 20px;
     position: relative;
     display:  flex;
     justify-content: space-between;
 }
 .similar-note{
     position: relative;
-    padding: 4px;
+    padding: 10px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -94,6 +95,8 @@ li {
 .context-similare{
     word-wrap: break-word;
     text-align:left;
+    height: 60%;
+    overflow: hidden;
 }
 .data-similar{
     position: absolute;
