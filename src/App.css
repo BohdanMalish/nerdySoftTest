@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  background-color: rgb(235, 232, 232);
+}
 
 .App-logo {
   height: 40vmin;

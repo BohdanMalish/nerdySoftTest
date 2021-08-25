@@ -1,0 +1,1 @@
+export const UPDATE_DATA = '/notes/update/data';
